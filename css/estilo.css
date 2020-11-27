@@ -1,0 +1,231 @@
+@charset "utf-8";
+@font-face {
+    font-family: GOTHAM;
+     src: url(../fonte/GOTHAM.TTF);
+ }
+
+body {
+    width: 100%;
+}
+ /*Editando fonte*/
+
+
+ p {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ p#information{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     text-align: justify;
+     text-indent: 25px;
+     margin-bottom: 40px;
+ }
+
+ p#table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-indent: 25px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+ }
+
+ h1{
+     font-family: GOTHAM;
+     color: black;
+     
+ }
+
+ h1#table{
+     text-align: center ;
+ }
+
+ h3{
+     font-family: GOTHAM;
+     font-size: 16px;
+ }
+
+ h1#cont1{
+     color: rgb(0, 0, 0);
+     font-size: 24px;
+     margin-top: 100px;
+     text-align: center;
+ }
+
+ h1#cont1-1{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+p#cont1-1{
+    color:white;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+ p#cont1{
+     text-align: justify;
+     text-indent: 25px;
+ }
+
+ 
+/*Editando Menu*/
+
+
+ 
+a#link{
+    color: rgb(0, 0, 0);
+}
+
+div#data{
+    color: white;
+}
+
+/*Editando capa*/
+
+div#capa{
+    background-image: url(../imagens/capa.png);
+    width: 100%;
+    height: 500px;
+    padding-top: 200px;
+    padding-left: 0px;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+div#capa h1{
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+div#capa h3{
+    color: rgba(0, 0, 0,0.6);
+    margin-left: 50px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+/* Editando imagens */
+
+img#logo{
+    width: 60px;
+    height: 40px;
+    margin-bottom: -50px;
+    margin-left: 120px;
+}
+
+img#newsletterimg{
+    width: 300px;
+    height: 150px;
+}
+
+div#newsletter{
+    text-align: center;
+}
+
+img#dev{
+    width: 650px;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+img#img2{
+    margin-top: 100px;
+}
+
+img#cont1{
+    margin-top: 50px;
+}
+
+/* Editando Botão */
+
+button#capa{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(248, 103, 1); 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: GOTHAM;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+    
+}
+
+a#link2{
+    color: rgb(255, 255, 255);
+}
+
+/* Editando Cont */
+
+div#cont1{
+   background-color: rgba(0,0,0,0.7);
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+div#container1{
+    width: 100%;
+    height: 300px;
+} 
+
+div#newsletterlb{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+div#corpo2{
+    background-color: rgb(243, 103, 1);
+    padding-bottom: 100px;
+}
+
+div#corpo1{
+    padding-bottom: 100px;
+}
+
+/*Editando newsletter*/
+
+h1#newsletter{
+    margin-top: 150px;
+}
+
+
+
+/* Editando Footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: -30px;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    font-family: GOTHAM;
+}
+
+footer p{
+    margin-left: 80px;
+}
