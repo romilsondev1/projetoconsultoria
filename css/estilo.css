@@ -5,7 +5,7 @@
  }
 
 body {
-    width: 100%;
+    width: auto;
 }
  /*Editando fonte*/
 
@@ -75,7 +75,12 @@ p#cont1-1{
  h1#aprtitulo1{
      margin-top: 50px;
  }
+
+ h2#textapr{
+    margin-top: 100px;
+ }
  
+
 /*Editando Menu*/
 
 
@@ -91,14 +96,13 @@ div#data{
 /*Editando capa*/
 
 div#capa{
-    background-image: url(../imagens/capa.png);
+    background-image: url(../imagens/capa.png) ;
     width: 100%;
     height: 500px;
     padding-top: 200px;
     padding-left: 0px;
     padding-bottom: 200px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: auto;
 }
 
 div#capa h1{
@@ -182,7 +186,7 @@ a#link2{
 
 div#aprcorpo{
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     
 }
 
@@ -194,6 +198,12 @@ div#aprcorpo2{
 div#aprcorpo3{
     padding-top: 80px;
     padding-bottom: 100px;
+}
+
+div#aprcorpo4{
+    margin-top: 150px;
+    padding-bottom: 50px;
+    
 }
 
 div#aprcorpo h1{
@@ -235,6 +245,11 @@ h1#newsletter{
 }
 
 
+/*Editando formulários*/
+
+form#formtrabalhe{
+    margin-top: 50px;
+}
 
 /* Editando Footer*/
 
@@ -252,3 +267,4 @@ footer{
 footer p{
     margin-left: 80px;
 }
+
