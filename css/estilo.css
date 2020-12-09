@@ -108,7 +108,7 @@ div#capa{
 }
 
 div#capa h1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-left: 50px;
     transition-property: all;
     transition-duration: 0.4s;
@@ -117,7 +117,7 @@ div#capa h1{
 }
 
 div#capa h3{
-    color: rgba(0, 0, 0,0.6);
+    color: rgba(194, 194, 194, 0.6);
     margin-left: 50px;
     transition-property: all;
     transition-duration: 0.4s;
