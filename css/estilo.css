@@ -195,6 +195,10 @@ a#link2{
 
 /* Editando Cont */
 
+div#meta{
+    text-align: center;
+}
+
 div#aprcorpo{
     padding-top: 70px;
     padding-bottom: 30px;
