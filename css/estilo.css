@@ -100,7 +100,7 @@ div#data{
 div#capa{
     background-image: url(../imagens/capa.jpg) ;
     width: 100%;
-    height: 800px;
+    height: 600px;
     padding-top: 200px;
     padding-left: 0px;
     padding-bottom: 200px;
@@ -108,16 +108,17 @@ div#capa{
 }
 
 div#capa h1{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-left: 50px;
     transition-property: all;
     transition-duration: 0.4s;
     transition-timing-function: linear;
     transition-delay: 0.1s;
+    font-size: 40px;
 }
 
 div#capa h3{
-    color: rgba(194, 194, 194, 0.6);
+    color: rgba(0, 0, 0, 0.6);
     margin-left: 50px;
     transition-property: all;
     transition-duration: 0.4s;
@@ -163,7 +164,7 @@ img#cont1{
 button#capa{
     margin-left: 50px;
     margin-top: 20px;
-    background-color: #0275d8; 
+    background-color: #3f3f3f; 
     border: none;
     color: white;
     text-align: center;
@@ -171,13 +172,17 @@ button#capa{
     display: inline-block;
     font-size: 14px;
     font-family: GOTHAM;
-    border-radius: 12px;
+    border-radius: 6px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition-property: all;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
     transition-timing-function: linear;
     transition-delay: 0.1s;
     
+}
+
+button#capa.color:hover{
+    background:#53a7ea;
 }
 
 a#link2{
