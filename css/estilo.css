@@ -47,6 +47,7 @@ body {
  h3{
      font-family: GOTHAM;
      font-size: 16px;
+     color: black;
  }
 
  h1#cont1{
@@ -135,7 +136,7 @@ div#capa h1{
 }
 
 div#capa h3{
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0,);
     margin-left: 50px;
     transition-property: all;
     transition-duration: 0.4s;
