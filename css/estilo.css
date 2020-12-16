@@ -125,7 +125,7 @@ div#capa{
 }
 
 div#capa h1{
-    color: #e75500;
+    color: #f07833;
     margin-left: 50px;
     transition-property: all;
     transition-duration: 0.4s;
@@ -185,7 +185,7 @@ img#meta{
 button#capa{
     margin-left: 50px;
     margin-top: 20px;
-    background-color: #e75500; 
+    background-color: #f07833; 
     border: none;
     color: white;
     text-align: center;
@@ -196,9 +196,9 @@ button#capa{
     border-radius: 6px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition-property: all;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
     transition-timing-function: linear;
-    transition-delay: 0.1s;
+    /*transition-delay: 0.1s;*/
     padding-top: 5px;
     padding-bottom: 5px;
     
@@ -207,7 +207,7 @@ button#capa{
 
 
 button#capa.color:hover{
-    background:#53a7ea;
+    background:#000000;
 }
 
 button#corpo2{
