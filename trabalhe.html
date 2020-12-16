@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-        <title>Meu Site</title>
+        <title>Consultoria Six Sigma</title>
+        <link rel=icon href="imagens/favicon.png" sizes="10x10"  type="image/png">
         <meta charset="utf-8">
         <!--Mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,13 +24,12 @@
 
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-
-        <script src="javascript/formcont.js"></script>
+        <script src="javascript/function.js"></script>
         
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-        <a class="navbar-brand" href="#">Logo</a>
+    <nav  class="navbar navbar-expand-sm bg-primary navbar-dark ">
+        <a class="navbar-brand" href="#"><img src="imagens/logo.png" width="70px" alt=""></a>
             <!--Recolhendo a barra. init-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@
             <!--Recolhendo a barra. end-->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">   
         <ul class="navbar-nav ml-auto" style="margin-right: 100px;">
-                        <li id="link" class="nav-item ">
+                        <li id="link" class="nav-item active">
                           <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
@@ -52,32 +52,62 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contato</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item active"  href="trabalhe.html">Trabalhe Comigo</a>
+                                <a class="dropdown-item" href="trabalhe.html">Trabalhe Comigo</a>
                                 <a class="dropdown-item" href="#">Faça um orçamento</a>
                                 <a class="dropdown-item" href="newsletter.html">Assinar Newsletter</a>
                             </div>
                         </li>
                       </ul> 
-            </div>
+                   </div>
         </nav>
-        <div class="container-fluid" >
-          <form name="formcontato" class="container" id="formtrabalhe" method="POST" action="">
-            <label for="fname">Primeiro nome:</label><br>
-            <input type="text" id="fname" name="fname" style="width: 300px;"><br>
-            <label for="lname">Sobrenome:</label><br>
-            <input type="text" id="lname" name="lname" style="width: 300px;"><br>
-            
-            <div class="row">
-              <div class="col-sm-5">
-                <label for="Endereço">Endereço</label><br>
-                <input type="text" id="fname" name="fendereco" style="width: 300px;"><br>
-              </div>
-              <div class="col-sm-5">
-                
-              </div>
-              <div class="col-sm-1"></div>
-            <button id="capa"><imput type="submit" value="submit" >Enviar</imput></button>
-          </form>
-        </div>  
+    <div id="capa" class="container-fluid">
+        <h1>MELHORIA CONTÍNUA<script>document.write(nome+ "!")</script></h1>
+        <h3>ALCANÇE DO QUE SE ESPERA, DA FORMA EM QUE DESEJA.</h3>
+        <button class="color" id="capa" type="button" class="btn btn-dark" ><a id="link2" href="newsletter.html">VAMOS LÁ!</a></button>
+    </div>
+    <!---Corpo1-->
+    <div id="corpo1" class="container">
+      <div class="row">
+      <div id="meta" class="col-sm-3"><img id="meta" style="margin-left: 20px;" src="imagens/meta.png" width="150px" alt=""><h3>ALCANÇE DAS METAS</h3><p style="text-align: justify;">Não há mais
+        tempo para ficar focado em sonhos, estabeleça metas tangíveis, nossa consultoria fará você alcançar.
+      </p></div>
+      <div id="meta" class="col-sm-3"><img id="meta" style="margin-left: 20px;" src="imagens/resultado.png" width="150px" alt=""><h3>FOCO EM RESULTADOS</h3><p style="text-align: justify;">Sem dúvida,
+      a frustração de não alcançar os resultados, podem te fazer parar, seja maior do que você pode ser.</div>
+      <div id="meta" class="col-sm-3"><img id="meta" style="margin-left: 20px;" src="imagens/melhoria.png" width="150px" alt=""><h3>PROMOÇÃO DE MELHORIAS</h3><p style="text-align: justify;">Nada é tão 
+      bom que não possa ser melhorado, assim como tudo é, sua empresa é, nós estamos prontos para melhorar o seu cenário organizacional.</div>
+      <div id="meta" class="col-sm-3"><img id="meta" style="margin-left: 20px;" src="imagens/mudança.png" width="150px" alt=""><h3>SEGURANÇA NAS MUDANÇAS</h3><p style="text-align: justify;">Não basta 
+      ter ideias e sair atirando para todo lado até acertar, o melhor resultado de uma mudança é ver o resultado sem perder o controle.</div>
+      </div>
+    </div>
+    <div id="corpo2" class="container-fluid" style="text-align: center;">
+      <div class="container">  
+      <h2 id="corpo2">A MAIS UTILIZADA NO MUNDO</h2>
+        <p id="corpo2">A <b><a id="linkexterno" href="https://pt.wikipedia.org/wiki/Seis_Sigma" target="_blank">Metodologia Seis Sigma</a></b> é um sistema de gestão. Ela é quantitativa, estruturada e disciplinada. Quantitativa, 
+          pois trabalha com estatística baseada em dados. Estruturada, pois utiliza o método <i>DMAIC</i>. Disciplinada, pois exige
+           um tempo mínimo de dedicação em função de um bom resultado.
+
+          Essa metodologia trabalha com três grandes objetivos, que são: redução de custos, otimização de produtos e
+           processos e incremento da satisfação do cliente.</p>
+        <button class="color" id="corpo2" type="button" class="btn btn-dark"><a id="link3" href="trabalhe.html">Solicite uma consultoria</a></button>
+      </div>
+    </div>
+    </div>
+    <div id="corpo3" class="container-fluid">
+      <div class="col-sm-6"><img src="" alt=""></div>
+      <div class="col-sm-6"><p></p></div>
+
+    </div>
+
+  
+<!--Footer-->
+  <footer class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3"><p ></p></div>  
+    <div class="col-sm-6"><p id="cont1">Copyright 2021. Romilson Cavalcante - Consultor Master Black Belt</p></div>
+    <div class="col-sm-3"><p></p></div>
+  </div>
+  
+  </footer>
+<!--Footer-->
 </body>
 </html>
