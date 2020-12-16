@@ -139,7 +139,7 @@ div#capa h1{
     font-size: 60px;
 }
 
-div#capa strong#sub{
+div#capa h1 strong#sub{
     color: #000000;
     /*margin-left: 50px;*/
     transition-property: all;
