@@ -64,11 +64,11 @@
           <h2 style="padding-bottom: 50px;">Faça os seus cálculos mais simples aqui mesmo!</h2>
           <h5>Digite um número: <input type="number" name="txtn1" id="txtn1"></h5>
           <h5>Digite outro número: <input type="number" name="txtn2" id="txtn2"><br></h5>
-          <input style="margin-top: 10px;" type="button" value="+" onclick="somar()">
+          <h5>Escolha uma operação: <input style="margin-top: 10px;" type="button" value="+" onclick="somar()">
           <input style="margin-top: 10px;" type="button" value="-" onclick="subtrair()">
           <input style="margin-top: 10px;" type="button" value="*" onclick="multiplicar()">
-          <input style="margin-top: 10px;" type="button" value="/" onclick="dividir()">
-              <div style="padding-top: 50px;" id="res">O resultado do seu cálculo é:</div>
+          <input style="margin-top: 10px;" type="button" value="/" onclick="dividir()"></h5>
+              <div style="padding-top: 50px;" id="res"> </div>
           </div>
           <script>
               function somar(){
@@ -79,8 +79,7 @@
                   var n2 = Number(tn2.value)
                   var s = n1+n2
                   res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 30px"
-                  res.style= "padding-top: 50px"      
+                  res.style= "font-size: 20px"      
               }
               function subtrair(){
                   var tn1 = window.document.getElementById("txtn1")
@@ -90,8 +89,8 @@
                   var n2 = Number(tn2.value)
                   var s = n1-n2
                   res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 30px"
-                  res.style= "padding-top: 50px"   
+                  res.style= "font-size: 20px"
+                    
       
               }
               function multiplicar(){
@@ -102,8 +101,8 @@
                   var n2 = Number(tn2.value)
                   var s = n1*n2
                   res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 30px"
-                  res.style= "padding-top: 50px"   
+                  res.style= "font-size: 20px"
+                     
       
               }
               function dividir(){
@@ -114,8 +113,8 @@
                   var n2 = Number(tn2.value)
                   var s = n1/n2
                   res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 30px"
-                  res.style= "padding-top: 50px"   
+                  res.style= "font-size: 20px"
+                    
       
               }
           </script>  
