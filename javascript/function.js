@@ -20,19 +20,19 @@ function newsletter (){
 function clicar (){
     var clicar = window.document.getElementById('black')
     clicar.innerHTML = 'VAMOS NESSA...'
-    clicar.style='font-size: 35px; text-align:center'
+    clicar.style='font-size: 35px; text-align:center; color:white'
                
 }
 
 function entrar() {
     var entrar = window.document.getElementById('black')
     entrar.innerHTML = 'FALE CONOSCO PELO CHAT!'
-    entrar.style='font-size: 35px; text-align:center'
+    entrar.style='font-size: 35px; text-align:center; color:white'
 }
 
 function sair (){
     var sair = window.document.getElementById('black')
     //sair.innerHTML = 'TEM CERTEZA?'
     sair.innerText = 'Confira, temos descontos imperdíveis para você...'
-    sair.style='font-size: 35px; text-align:center' 
+    sair.style='font-size: 35px; text-align:center; color:white' 
 }
