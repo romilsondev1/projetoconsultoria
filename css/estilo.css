@@ -354,7 +354,11 @@ div#corpo3 h1 strong{
 /*Editando newsletter*/
 
 h1#newsletter{
-    margin-top: 100px;
+    margin-top: ;
+}
+
+div#newsletter img{
+    margin-top: 50px;
 }
 
 

@@ -13,6 +13,7 @@ function newsletter (){
         msg.style = ('text-align: center; font-size:30px;')
         inform.innerHTML = ('DESCULPE...')
         inform.style = ('color: #e75500')
+        return false
     }
     
 
