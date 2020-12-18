@@ -61,13 +61,13 @@
                    </div>
         </nav>
         <div style="text-align: center; padding-top: 100px;">
-          <h2 style="padding-bottom: 50px;">Faça os seus cálculos mais simples aqui mesmo!</h2>
+          <h2 style="padding-bottom: 50px;">FAÇA OS SEUS <strong style="color: #f07833;">CALCULOS</strong> MAIS SIMPLES AQUI MESMO</h2>
           <h5>Digite um número: <input type="number" name="txtn1" id="txtn1"></h5>
           <h5>Digite outro número: <input type="number" name="txtn2" id="txtn2"><br></h5>
-          <h5>Escolha uma operação: <input style="margin-top: 10px;" type="button" value="+" onclick="somar()">
+          <h6>Escolha uma operação: <input style="margin-top: 10px;" type="button" value="+" onclick="somar()">
           <input style="margin-top: 10px;" type="button" value="-" onclick="subtrair()">
           <input style="margin-top: 10px;" type="button" value="*" onclick="multiplicar()">
-          <input style="margin-top: 10px;" type="button" value="/" onclick="dividir()"></h5>
+          <input style="margin-top: 10px;" type="button" value="/" onclick="dividir()"></h6>
               <div style="padding-top: 50px;" id="res"> </div>
           </div>
           <script>
@@ -79,7 +79,8 @@
                   var n2 = Number(tn2.value)
                   var s = n1+n2
                   res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 20px"      
+                  res.style= "font-size: 30px; color: #f07833; padding-top: 50px"
+                       
               }
               function subtrair(){
                   var tn1 = window.document.getElementById("txtn1")
@@ -89,7 +90,7 @@
                   var n2 = Number(tn2.value)
                   var s = n1-n2
                   res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 20px"
+                  res.style= "font-size: 30px; color: #f07833; padding-top: 50px"
                     
       
               }
@@ -101,7 +102,7 @@
                   var n2 = Number(tn2.value)
                   var s = n1*n2
                   res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 20px"
+                  res.style= "font-size: 30px; color: #f07833; padding-top: 50px"
                      
       
               }
@@ -113,7 +114,7 @@
                   var n2 = Number(tn2.value)
                   var s = n1/n2
                   res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 20px"
+                  res.style= "font-size: 30px; color: #f07833; padding-top: 50px"
                     
       
               }
