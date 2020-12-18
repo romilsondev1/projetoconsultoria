@@ -15,7 +15,24 @@ function newsletter (){
         inform.style = ('color: #e75500')
         return false
     }
-    
-
 }
 
+function clicar (){
+    var clicar = window.document.getElementById('black')
+    clicar.innerHTML = 'VAMOS NESSA...'
+    clicar.style='font-size: 35px; text-align:center'
+               
+}
+
+function entrar() {
+    var entrar = window.document.getElementById('black')
+    entrar.innerHTML = 'FALE CONOSCO PELO CHAT!'
+    entrar.style='font-size: 35px; text-align:center'
+}
+
+function sair (){
+    var sair = window.document.getElementById('black')
+    //sair.innerHTML = 'TEM CERTEZA?'
+    sair.innerText = 'Confira, temos descontos imperdíveis para você...'
+    sair.style='font-size: 35px; text-align:center' 
+}

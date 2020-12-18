@@ -351,6 +351,12 @@ div#corpo3 h1 strong{
     color: #e75500;
     text-decoration: underline;
 }
+
+div#banner{
+    background-color: #e75500;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
 /*Editando newsletter*/
 
 h1#newsletter{
