@@ -358,10 +358,34 @@ div#banner{
     padding-bottom: 15px;
 }
 
-div#corpo5 h2{
+div#corpo5 h1{
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+div#corpo6 h1{
     margin-top: 50px;
     margin-bottom: 50px
+}
+
+div#corpo6 {
+    margin-bottom: 100px;
+    margin-top: 100px
+}
+
+div#corpo7 h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+div#corpo7 strong{
+    color: #e75500
+
+}
+
+div#corpo7 div#form1{
+    margin-top: 50px;
 }
 /*Editando newsletter*/
 
