@@ -357,6 +357,12 @@ div#banner{
     padding-top: 25px;
     padding-bottom: 15px;
 }
+
+div#corpo5 h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
 /*Editando newsletter*/
 
 h1#newsletter{
