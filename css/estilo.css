@@ -360,8 +360,26 @@ div#banner{
 
 div#corpo5 h1{
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    padding-top: 150px;
+}
+
+div#corpo5 strong{
+    color: black;
+}
+
+div#corpo5 h3{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div#corpo5{
+    background-color: #e75500;
+    margin-top: -105px;
+    padding-bottom: 100px;
 }
 
 div#corpo6 h1{
@@ -384,13 +402,27 @@ div#corpo7 strong{
 
 }
 
-div#corpo7 div#form1{
-    margin-top: 50px;
+div#corpo7 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+
+
+div.jumbotron{
+    background-color: rgb(94, 93, 93);
+    width: 800px;
+    height: 600px;
+    
+} 
+
+div#corpo7 label{
+    color: rgb(0, 0, 0);
 }
 /*Editando newsletter*/
 
 h1#newsletter{
-    margin-top: ;
+    margin-top: 30px
 }
 
 div#newsletter img{
