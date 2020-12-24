@@ -1,135 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-        <title>Consultoria Six Sigma</title>
-        <link rel=icon href="imagens/favicon.png" sizes="10x10"  type="image/png">
-        <meta charset="utf-8">
-        <!--Mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-        <!--For Font-Aswesome Icons-->
-        <link rel="stylesheet" href="https://cdnj.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-        <link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-        <script src="javascript/function.js"></script>
-        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="estilo1.css">
 </head>
-<body>
-    <nav  class="navbar navbar-expand-sm bg-dark navbar-dark ">
-        <a id="imglogo" class="navbar-brand" href="#"><img src="imagens/logo.png" width="30px" alt=""></a>
-            <!--Recolhendo a barra. init-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <!--Recolhendo a barra. end-->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">   
-        <ul class="navbar-nav ml-auto" style="margin-right: 100px;">
-                        <li id="link" class="nav-item ">
-                          <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="sobre.html">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="portifolio.html">Portifólio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                          </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contato</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="trabalhe.html">Trabalhe Comigo</a>
-                                <a class="dropdown-item" href="#">Faça um orçamento</a>
-                                <a class="dropdown-item active" href="newsletter.html">Assinar Newsletter</a>
-                            </div>
-                        </li>
-                      </ul> 
-                   </div>
-        </nav>
-        <div style="text-align: center; padding-top: 100px;">
-          <h1 style="padding-bottom: 50px;">FAÇA OS SEUS <strong style="color: #f07833;">CÁLCULOS</strong> MAIS SIMPLES AQUI MESMO</h1>
-          <h5>Digite um número:</h5><input type="number" name="txtn1" id="txtn1">
-          <h5>Digite outro número:</h5><input type="number" name="txtn2" id="txtn2"><br>
-          <h6>Escolha uma operação:</h6><input style="margin-top: 10px;" type="button" value="+" onclick="somar()">
-          <input style="margin-top: 10px;" type="button" value="-" onclick="subtrair()">
-          <input style="margin-top: 10px;" type="button" value="*" onclick="multiplicar()">
-          <input style="margin-top: 10px;" type="button" value="/" onclick="dividir()"></h6>
-              <div style="padding-top: 50px;" id="res"> </div>
-          </div>
-          <script>
-              function somar(){
-                  var tn1 = window.document.getElementById("txtn1")
-                  var tn2 = window.document.getElementById("txtn2")
-                  var res = window.document.getElementById("res")
-                  var n1 = Number(tn1.value)
-                  var n2 = Number(tn2.value)
-                  var s = n1+n2
-                  res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 30px; color: #f07833; padding-top: 50px"
-                       
-              }
-              function subtrair(){
-                  var tn1 = window.document.getElementById("txtn1")
-                  var tn2 = window.document.getElementById("txtn2")
-                  var res = window.document.getElementById("res")
-                  var n1 = Number(tn1.value)
-                  var n2 = Number(tn2.value)
-                  var s = n1-n2
-                  res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 30px; color: #f07833; padding-top: 50px"
-                    
-      
-              }
-              function multiplicar(){
-                  var tn1 = window.document.getElementById("txtn1")
-                  var tn2 = window.document.getElementById("txtn2")
-                  var res = window.document.getElementById("res")
-                  var n1 = Number(tn1.value)
-                  var n2 = Number(tn2.value)
-                  var s = n1*n2
-                  res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 30px; color: #f07833; padding-top: 50px"
-                     
-      
-              }
-              function dividir(){
-                  var tn1 = window.document.getElementById("txtn1")
-                  var tn2 = window.document.getElementById("txtn2")
-                  var res = window.document.getElementById("res")
-                  var n1 = Number(tn1.value)
-                  var n2 = Number(tn2.value)
-                  var s = n1/n2
-                  res.innerHTML= 'O resultado do seu cálculo é: ' + ' ' + s
-                  res.style= "font-size: 30px; color: #f07833; padding-top: 50px"
-                    
-      
-              }
-          </script>  
-
-<script src="//code.jivosite.com/widget/gz6ecJuvMj" async></script>
-<!--Footer-->
-  <footer id="newsletter" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3"><p ></p></div>  
-    <div class="col-sm-6"><p id="cont1">Copyright 2021. Romilson Cavalcante - Consultor Master Black Belt</p></div>
-    <div class="col-sm-3"><p></p></div>
-  </div>
-  
-  </footer>
-<!--Footer-->
+<body onload="carregar()">
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+    <section>
+        <div id="msg">
+            Aqui vai aparecer a mensagem
+        </div>
+        <div id="foto">
+            <img id="imagem" src="manha.png" width="200px" alt="foto do dia">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Romilson Cavalcante</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
