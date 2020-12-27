@@ -409,7 +409,29 @@ div#corpo7 {
 
 
 
-div#corpo7 label{
+div#corpo8 label{
+    color: rgb(0, 0, 0);
+}
+
+div#corpo8 h1{
+    text-align: center;
+    
+}
+
+div#corpo8 strong{
+    color: #e75500
+
+}
+
+div#corpo8 {
+    margin-top: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+div#corpo8 label{
     color: rgb(0, 0, 0);
 }
 
