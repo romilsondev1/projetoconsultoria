@@ -24,10 +24,10 @@
 
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-        <script src="javascript/function.js"></script>
+        
         
 </head>
-<body>
+<body onload = "atendimento()">
     <nav  class="navbar navbar-expand-sm bg-dark navbar-dark ">
         <a id="imglogo" class="navbar-brand" href="#"><img src="imagens/logo.png" width="30px" alt=""></a>
             <!--Recolhendo a barra. init-->
@@ -60,16 +60,21 @@
                       </ul> 
                    </div>
         </nav>
-        <div class="container" id="newsletter">
+        <div class="container" id="newsletter" >
           <img src="imagens/Eu.png" width="100px">
           <h1 id="newsletter">ME CHAMA NO <strong style="color: #f07833;">CHAT.</strong></h1>
+          <div class="progress" style="height:30px">
+            <div id="horario" class="progress-bar " style="width:80%">...</div>
+            
+          </div><br>
+          <div id="msg">aqui vai aparecer a mensagem</div>
           <!--<div id="newsletterlb">
           <label for="email"></label>
           <input type="email" id="email" placeholder="alguem@mail.com" required="required" name="email" style="width: 400px;"><br>
           <input style="margin-top: 20px;" type="button" id="new" value="Enviar" onclick="newsletter()">
           </div>
           <h4 style="margin-top: -20px;" id="information1"></h4>
-          <p style="margin-top: 2 0px" id="information"><!--Também chamada de boletim informativo, a newsletter é uma publicação fixa da empresa para seus clientes e potenciais clientes.
+          <p style="margin-top: 2 0px" id="information">Também chamada de boletim informativo, a newsletter é uma publicação fixa da empresa para seus clientes e potenciais clientes.
 
            Assim como jornais e revistas, ela tem periodicidade, linha editorial, linha visual, etc. Pode ser enviada inclusive em formato de jornal, impressa, mas o mais comum é por meios eletrônicos, em especial, via e-mail.
            
@@ -77,7 +82,8 @@
           </div>
           <div style="height: 65px;"></div>-->
 
-          <script src="//code.jivosite.com/widget/gz6ecJuvMj" async></script>
+          <!--<script src="//code.jivosite.com/widget/gz6ecJuvMj" async></script>-->
+          <script src="javascript/atendimento.js"></script>
           
 <!--Footer
   <footer id="newsletter" class="container-fluid">
