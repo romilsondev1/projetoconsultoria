@@ -457,6 +457,11 @@ section#index.container{
     margin-bottom: 20px;
 }*/
 
+div#comp {
+    margin-top: 50px;
+    margin-bottom: -25px;
+}
+
 /*Editando newsletter*/
 
 h1#newsletter{
