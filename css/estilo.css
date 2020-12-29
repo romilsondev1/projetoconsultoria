@@ -472,6 +472,11 @@ div#newsletter img{
     margin-top: 50px;
 }
 
+div#corpo7{
+    background-image: url(../imagens/equipe.png);
+    height: 700px;
+}
+
 
 /*Editando formulários*/
 
