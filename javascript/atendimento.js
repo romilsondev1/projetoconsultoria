@@ -15,22 +15,22 @@ function atendimento(){
     switch (hora){
         case 8:
         atendimento.style = 'width: 12.5%'
-        atendimento.innerText = '% do nosso horário de atendimento '
+        atendimento.innerText = '% do nosso expediente '
         comp.innerHTML = 'Que bom tê-lo aqui. Estamos online agora'
         break
         case 9:
         atendimento.style = 'width: 25%'
-        atendimento.innerText = '% do nosso horário de atendimento'
+        atendimento.innerText = '% do nosso expediente'
         comp.innerHTML = 'Que bom tê-lo aqui. Estamos online agora'
         break
         case 10:
         atendimento.style = 'width: 37.5%'
-        atendimento.innerText = '% do nosso horário de atendimento'
+        atendimento.innerText = '% do nosso expediente'
         comp.innerHTML = 'Que bom tê-lo aqui. Estamos online agora'
         break
         case 11:
         atendimento.style = 'width: 50%'
-        atendimento.innerText = '% do nosso horário de atendimento'
+        atendimento.innerText = '% do nosso expediente'
         comp.innerHTML = 'Que bom tê-lo aqui. Estamos online agora'
         break
         case 12:
@@ -47,17 +47,17 @@ function atendimento(){
         break
         case 14:
         atendimento.style = 'width: 75%; background-color: #e79600'
-        atendimento.innerText = '% do nosso horário de atendimento'
+        atendimento.innerText = '% do nosso expediente'
         comp.innerHTML = 'Que bom tê-lo aqui. Estamos online agora'
         break
         case 15:
         atendimento.style = 'width: 87.5%; background-color: #e77000 '
-        atendimento.innerText = '% do nosso horário de atendimento'
+        atendimento.innerText = '% do nosso expediente'
         comp.innerHTML = 'Que bom tê-lo aqui. Estamos online agora'
         break
         case 16:
         atendimento.style = 'width: 99%; background-color: red'
-        atendimento.innerText = '% do nosso horário de atendimento'
+        atendimento.innerText = '% do nosso expediente'
         comp.innerHTML = 'Que bom tê-lo aqui. Estamos online agora'
         break
     }
