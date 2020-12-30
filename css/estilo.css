@@ -492,9 +492,12 @@ div#duvida {
 }
 
 div#teste{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
+div#teste h2{
+    color: white;
+}
 
 /*Editando formulários*/
 
