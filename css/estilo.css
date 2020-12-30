@@ -348,7 +348,7 @@ div#corpo3{
 }
 
 div#corpo3 h1 strong{
-    color: ##e7a900;
+    color: #e7a900;
     text-decoration: underline;
 }
 
@@ -399,7 +399,7 @@ div#corpo7 h1{
 }
 
 div#corpo7 strong{
-    color: ##e7a900
+    color: #e7a900
 
 }
 
@@ -506,6 +506,36 @@ div#teste{
 
 div#teste h2{
     color:#e7a900;
+}
+
+body#teste{
+    background-color: #2d2d2d;
+    color: white;
+}
+body#teste h1{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+body#teste h1 strong{
+    color: #e7a900
+}
+body#teste p{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+body#teste h3{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+div#form{
+    padding-left: 40px;
+}
+div#form button{
+    margin-top: 20px;
 }
 
 /*Editando formulários*/
