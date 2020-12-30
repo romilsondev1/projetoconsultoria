@@ -313,7 +313,7 @@ div#corpo2{
     background-color:#e75500;
     color: white;
     padding-bottom: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -478,6 +478,7 @@ div#corpo9{
     height: 800px;
     background-repeat: no-repeat;
     text-align: center;
+    padding-top: 50px;
 }
 
 
