@@ -51,7 +51,7 @@ body {
  }
 
  h1#cont1{
-     color: #e75500;
+     color: #e7a900;
      font-size: 36px;
      margin-top: 100px;
      text-align: center;
@@ -130,7 +130,7 @@ div#capa{
 }
 
 div#capa h1{
-    color: #f07833;
+    color: #e7a900;
     margin-left: 50px;
     transition-property: all;
     transition-duration: 0.4s;
@@ -200,7 +200,7 @@ img#meta{
 button#capa{
     margin-left: 50px;
     margin-top: 20px;
-    background-color: #f07833; 
+    background-color:#e7a900; 
     border: none;
     color: white;
     text-align: center;
@@ -310,7 +310,7 @@ div#newsletterlb{
 }
 
 div#corpo2{
-    background-color:#e75500;
+    background-color:#e7a900;
     color: white;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -348,12 +348,12 @@ div#corpo3{
 }
 
 div#corpo3 h1 strong{
-    color: #e75500;
+    color: ##e7a900;
     text-decoration: underline;
 }
 
 div#banner{
-    background-color: #e75500;
+    background-color: #e7a900;
     padding-top: 25px;
     padding-bottom: 15px;
 }
@@ -377,7 +377,7 @@ div#corpo5 h3{
 }
 
 div#corpo5{
-    background-color: #e75500;
+    background-color: #e7a900;
     margin-top: -105px;
     padding-bottom: 100px;
 }
@@ -394,11 +394,12 @@ div#corpo6 {
 
 div#corpo7 h1{
     text-align: center;
+    color: white;
     
 }
 
 div#corpo7 strong{
-    color: #e75500
+    color: ##e7a900
 
 }
 
@@ -420,7 +421,7 @@ div#corpo8 h1{
 }
 
 div#corpo8 strong{
-    color: #e75500
+    color: #e7a900
 
 }
 
@@ -437,7 +438,7 @@ div#corpo8 label{
 }
 
 section#index.container{
-    background-color: rgba(37, 37, 37, 0.521);
+    background-color: #2d2d2d;
     border-radius: 10px;
     padding: 15px;
     /*width: 700px;*/
@@ -482,21 +483,29 @@ div#corpo9{
 }
 
 div#corpo10 {
-    background-image: url(../imagens/fund.png);
-    height: 600px;
+    background-color: #2d2d2d;
+    height: auto;
     margin-top: 50px;
 }
 
 div#duvida {
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
 }
 
+div#duvida h1{
+    color: white;
+}
+
+
 div#teste{
-    margin-top: 350px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 div#teste h2{
-    color: white;
+    color:#e7a900;
 }
 
 /*Editando formulários*/
