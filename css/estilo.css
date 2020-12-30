@@ -405,6 +405,7 @@ div#corpo7 strong{
 div#corpo7 {
     padding-top: 0px;
     padding-bottom: 0px;
+    background-color: rgba(37, 37, 37, 0.521);
 }
 
 
@@ -476,6 +477,7 @@ div#corpo9{
     background-image: url(../imagens/equipe.png);
     height: 800px;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 
