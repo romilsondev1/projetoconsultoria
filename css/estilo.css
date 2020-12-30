@@ -476,6 +476,7 @@ div#corpo7{
     background-image: url(../imagens/equipe.png);
     height: 800px;
     background-repeat: no-repeat;
+    position:fixed;
 }
 
 
