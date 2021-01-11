@@ -347,10 +347,27 @@ div#corpo3{
     
 }
 
-div#corpo3 h1 strong{
+div#corpo3sobre{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: white;
+    background-color: #2d2d2d;
+    
+}
+
+div#corpo3sobre h1 strong{
     color: #e7a900;
     text-decoration: underline;
 }
+
+div#corpo3sobre h1 {
+    color: white;
+}
+
+div#corpo3sobre h3{
+ color: white;
+}
+
 
 div#banner{
     background-color: #e7a900;
@@ -544,6 +561,13 @@ div#form button{
     margin-top: 20px;
 }
 
+div#história{
+    text-align: center;
+}
+
+div#história h1{
+    padding-top: 100px;
+}
 /*Editando formulários*/
 
 form#formtrabalhe{
