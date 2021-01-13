@@ -127,7 +127,7 @@ function teste(){
     }else if (res1[1].checked && res2[1].checked && res3[1].checked && res4[1].checked && res5[1].checked && res6[1].checked 
         && res7[1].checked && res8[1].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
         
-            result.innerHTML=('Não conseguimos medir seu nível :( Inicie sua carreira pelo White Belt')
+            result.innerHTML=('Iniciar sempre é muito emocionante, sugerimos para você o treinamento White Belt')
             result.style = 'text-align:center ; margin-top:200px; font-size:25px; font: GOTHAM.TTF;' ;
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento Grátis...'
