@@ -1,4 +1,5 @@
 function teste(){
+    var interacao = document.querySelector('h1#bemvindo')
     var result = document.getElementById('resultado')
     var retorn = document.querySelector('a#retorno')
     var comp = document.querySelector('span#complemento')
@@ -20,6 +21,7 @@ function teste(){
             
             result.innerHTML = ('Parabéns seu nível é máximo, não precisa de treinamento!')
             result.style = 'text-align:center ; margin-top:200px; font-size:25px; font: GOTHAM.TTF; color:#e7a900'
+            interacao.innerHTML = ('Desejamos Sucesso!')
             
 
     }else if (res1[0].checked && res2[1].checked && res3[1].checked && res4[1].checked && res5[1].checked && res6[1].checked 
@@ -30,6 +32,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
 
     }else if (res1[0].checked && res2[0].checked && res3[1].checked && res4[1].checked && res5[1].checked && res6[1].checked 
         && res7[1].checked && res8[1].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
@@ -39,6 +42,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
 
     }else if (res1[0].checked && res2[0].checked && res3[0].checked && res4[1].checked && res5[1].checked && res6[1].checked 
         && res7[1].checked && res8[1].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
@@ -48,6 +52,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
    
         }else if (res1[0].checked && res2[0].checked && res3[0].checked && res4[0].checked && res5[1].checked && res6[1].checked 
         && res7[1].checked && res8[1].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
@@ -57,6 +62,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
     
     }else if (res1[0].checked && res2[0].checked && res3[0].checked && res4[0].checked && res5[0].checked && res6[1].checked 
         && res7[1].checked && res8[1].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
@@ -66,6 +72,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
     
     }else if (res1[0].checked && res2[0].checked && res3[0].checked && res4[0].checked && res5[0].checked && res6[0].checked 
         && res7[1].checked && res8[1].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
@@ -75,6 +82,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
     
     }else if (res1[0].checked && res2[0].checked && res3[0].checked && res4[0].checked && res5[0].checked && res6[0].checked 
         && res7[0].checked && res8[1].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
@@ -84,6 +92,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
     
     }else if (res1[0].checked && res2[0].checked && res3[0].checked && res4[0].checked && res5[0].checked && res6[0].checked 
         && res7[0].checked && res8[0].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
@@ -93,6 +102,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
     
     }else if (res1[0].checked && res2[0].checked && res3[0].checked && res4[0].checked && res5[0].checked && res6[0].checked 
         && res7[0].checked && res8[0].checked && res9[0].checked && res10[1].checked && res11[1].checked ){
@@ -102,6 +112,7 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
     
     }else if (res1[0].checked && res2[0].checked && res3[0].checked && res4[0].checked && res5[0].checked && res6[0].checked 
         && res7[0].checked && res8[0].checked && res9[0].checked && res10[0].checked && res11[1].checked ){
@@ -110,7 +121,8 @@ function teste(){
             result.style = 'text-align:center ; margin-top:200px; font-size:25px; font: GOTHAM.TTF; color:#e7a900'
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento com um ótimo desconto...'
-            comp.style = 'font-size:20px'    
+            comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Parabéns!')
     
     }else if (res1[1].checked && res2[1].checked && res3[1].checked && res4[1].checked && res5[1].checked && res6[1].checked 
         && res7[1].checked && res8[1].checked && res9[1].checked && res10[1].checked && res11[1].checked ){
@@ -120,12 +132,14 @@ function teste(){
             retorn.innerHTML = 'Clique aqui ';
             comp.innerHTML =   'para fazer o seu treinamento Grátis...'
             comp.style = 'font-size:20px'
+            interacao.innerHTML = ('Obrigado por realizar o teste!')
               
     }else {
         
             result.innerHTML=('Infelizmente suas respostas não seguem uma lógica com relação à evolução de um Belt :(')
             result.style = 'text-align:center ; margin-top:200px; font-size:20px; font: GOTHAM.TTF; '
             ref.innerHTML = 'Refazer o teste'
+            interacao.innerHTML = ('Sinto Muito.')
                             
     }
 
