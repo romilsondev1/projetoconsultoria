@@ -2,6 +2,7 @@ function teste(){
     var result = document.getElementById('resultado')
     var retorn = document.querySelector('a#retorno')
     var comp = document.querySelector('span#complemento')
+    var ref = document.querySelector('a#refazer')
     var res1 = document.getElementsByName('optradio1')
     var res2 = document.getElementsByName('optradio2')
     var res3 = document.getElementsByName('optradio3')
@@ -123,7 +124,9 @@ function teste(){
     }else {
         
             result.innerHTML=('Infelizmente suas respostas não seguem uma lógica com relação à evolução de um Belt :(')
-            result.style = 'text-align:center ; margin-top:200px; font-size:20px; font: GOTHAM.TTF; '    
+            result.style = 'text-align:center ; margin-top:200px; font-size:20px; font: GOTHAM.TTF; '
+            ref.innerHTML = 'Refazer o teste'
+                            
     }
 
 }
