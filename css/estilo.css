@@ -4,6 +4,21 @@
      src: url(../fonte/GOTHAM.TTF);
  }
 
+ #divnav{
+    background-color: #000000;
+}
+
+nav{
+    background-color: #000000;
+}
+
+#nav a{
+    color:white;
+    font-size: 17px;
+    font-family: GOTHAM;
+}
+
+
 body {
     width: auto;
 }
@@ -127,6 +142,7 @@ div#capa{
     padding-left: 0px;
     padding-bottom: 200px;
     margin: auto;
+    background-size: cover;
 }
 
 div#capa h1{
@@ -174,6 +190,8 @@ img#newsletterimg{
 
 div#newsletter{
     text-align: center;
+    margin-top: 100px;
+    
 }
 
 img#dev{
