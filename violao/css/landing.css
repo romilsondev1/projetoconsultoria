@@ -1,0 +1,216 @@
+@font-face {
+    font-family: GOTHAM;
+     src: url(../fonte/GOTHAM.TTF);
+ }
+
+ body{
+     background-color: black;
+ }
+
+
+ a{
+     text-decoration: none;
+ }
+
+a#link{
+    font-family: GOTHAM;
+    color: white;
+
+}
+
+h1{
+    font-family: GOTHAM;
+    color: white;
+}
+
+h2{
+    font-family: GOTHAM;
+    color: white;
+}
+h3{
+    font-family: GOTHAM;
+    color: white;
+}
+h4{
+    font-family: GOTHAM;
+    color: white;
+}
+h5{
+    font-family: GOTHAM;
+    color: white;
+}
+p{
+    font-family: GOTHAM;
+    color: white;
+}
+div#title{
+    background-image: url(..//imagens/lan.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 55px;
+}
+
+h2#title1{
+    font-family: GOTHAM;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+section#form{
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
+
+section#form h4{
+    padding: 10px;
+}
+
+section#form input{
+    width: 320px;
+    border-radius: 8px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+input#um{
+    width: 400px;
+    border-radius: 8px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#button {
+    background-color: #23a2ab;
+    border-color: #23a2ab;
+    border-radius: 8px;
+    width: 320px;
+    height: 50px;
+    color: white;
+    padding-top: 15px;
+
+}
+
+p#avista{
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+h1#avista{
+    margin-top: 20px;
+}
+
+div#porticapa{
+    background-image: url(../imagens/porticapa.png);
+  background-size: cover;
+
+}
+
+div#porticapa h1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+#navporti a{
+    color:white;
+    font-size: 17px;
+    font-family: GOTHAM;
+}
+
+h2#web{
+    margin-top: 100px;
+    font: GOTHAM;
+}
+
+#linkescuro{
+    color: #23a2ab;
+}
+
+img#web{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+div#SEO{
+    background-color: black;}
+
+#website{
+    background-color: black;
+}
+
+#ads{
+    background-color: black;
+}
+
+#depoimento{
+    background-color:rgb(41, 41, 41);
+    text-align: center;
+    padding-top: 50px;
+}
+
+#ferramenta{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+section#ferramenta{
+    background-color: rgb(41, 41, 41);
+    margin-left: -20px; margin-right: -8px; margin-top: 5px; margin-bottom: -5px;
+    border-radius: 30px;
+}
+
+div#blocoferr{
+    border-radius: 30px;
+    background-color: #23a2ab;
+}
+
+div#form{
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    
+}
+
+div#form h4{
+    padding: 10px;
+}
+
+div#form input{
+    width: 320px;
+    border-radius: 8px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+div#contato{
+    background-color: rgb(34, 33, 33);
+
+    padding-bottom: 30px;
+
+}
+
+#footer{
+    background-color: #23a2ab;
+    margin-bottom: 0px;
+}
+
+p#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    padding: 20px;
+}

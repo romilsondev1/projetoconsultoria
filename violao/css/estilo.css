@@ -1,0 +1,898 @@
+@font-face {
+    font-family: GOTHAM;
+     src: url(../fonte/GOTHAM.TTF);
+ }
+
+ h2{
+     font-family: GOTHAM;
+ }
+ h1{
+     font-family: GOTHAM;
+ }
+
+ li{
+     font-family: GOTHAM;
+     list-style-type: none;
+ }
+
+ a#footer{
+     color: white;
+ }
+
+ @media (min-width: 1001px){
+
+body{
+    margin-top: 60px;
+}
+
+#divnav{
+    background-color: #000000;
+}
+
+nav{
+    background-color: #000000;
+}
+
+#nav a{
+    color:white;
+    font-size: 17px;
+    font-family: GOTHAM;
+}
+
+a#imglogo{
+    padding-left: 40px;
+}
+
+#corpo1{
+    background-image: url(../imagens/capa.png);
+    width: 100%;
+    height: 100%;
+    background-color: #fe6500;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div #seta{
+    text-align: center;
+    padding-top: 200px;
+}
+
+#corpo1 h1 {
+    text-align: right;
+    padding-top: 200px;
+    color:white;
+    font-family: GOTHAM;
+}
+
+#corpo1 h5 {
+    text-align: right;
+    color: white;
+}
+
+#corpo1{
+    height: 600px;
+}
+
+a#saiba{
+    text-decoration: none;
+}
+
+h1#corpo2{
+    margin-top: 200px;
+}
+
+img#cel{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+span#multi{
+    color: #fe6500;
+}
+
+a#adquira{
+    text-decoration: none;
+    color: #fe6500;
+}
+
+div#meta{
+    text-align: center;
+    padding-top: 50px;
+}
+
+div#corpo3{
+    background-color: rgba(230, 231, 231, 0.300);
+    padding-bottom: 50px;
+}
+
+h1#corpo3{
+    margin-top: 100px;
+}
+
+img#site1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+div#cases{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#ferramentas{
+    background-color: #fe6500;
+}
+
+h1#ferr{
+    color: white;
+    margin-top: 200px;
+}
+
+a#conhecer{
+    color: white;
+    padding-top: 5px;
+}
+
+img#word{
+    padding-top: 40px;
+}
+
+div#corpo6{
+    background-image: url(../imagens/usuario.png);
+    width: 100%;
+    background-size: cover;
+}
+
+h1#rec{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    color: white;
+    padding-left: 90px;
+}
+
+span#rel{
+    color: #fe6500;
+}
+
+h5#linkesc{
+    padding-top: 40px;
+}
+
+div#corpo7{
+    background-image: url(../imagens/duv.png);
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -8px;
+    background-size: cover;
+}
+
+
+/*orçamento*/
+div#newsletter{
+    text-align: center;
+}
+
+div#comp {
+    margin-top: 100px;
+    margin-bottom: -25px;
+}
+
+h1#newsletter{
+    margin-top: 30px
+}
+
+div#newsletter img{
+    margin-top: 50px;
+}
+
+/*orçamento*/
+
+img#orc{
+    padding-top: 10px;
+}
+
+#corpo8{
+    background-color: rgba(230, 231, 231, 0.300);
+}
+
+div#list1{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+div#list1 p{
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+
+li#atendimento{
+    font-size: 13px;
+}
+
+div#copy{
+    background-color: black;
+    
+}
+
+img#logof{
+    margin: 40px;
+}
+
+div#redes{
+    text-align: right;
+}
+
+div#redes img{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+img#linked{
+    margin-right: 50px;
+}
+
+
+}
+
+
+
+@media (max-width: 1000px){
+
+    body{
+        margin-top: 60px;
+    }
+
+    #divnav{
+        background-color: #000000;
+    }
+    
+    nav{
+        background-color: #000000;
+    }
+    
+    #nav a{
+        color:white;
+        font-size: 17px;
+        font-family: GOTHAM;
+    }
+    
+    a#imglogo{
+        padding-left: 10px;
+    }
+    
+    #corpo1{
+        
+        width: 100%;
+        height: 100%;
+        background-color: #fe6500;
+        background-repeat: no-repeat;
+    }
+    
+    div #seta{
+        text-align: center;
+        padding-top: 200px;
+    }
+    
+    #corpo1 h1 {
+        padding-top: 100px;
+        color:white;
+        font-family: GOTHAM;
+    }
+    
+    #corpo1 h5 {
+        color: white;
+        padding-bottom: 220px;
+    }
+
+    a#saiba{
+        text-decoration: none;
+    }
+
+    #corpo2{
+        text-align: center;
+    }
+
+    h1#corpo2{
+        margin-top: 50px;
+    }
+    
+    img#cel{
+        padding-top: 50px;
+    }
+    
+    span#multi{
+        color: #fe6500;
+    }
+    
+    a#adquira{
+        text-decoration: none;
+        color: #fe6500;
+    }
+
+    div#meta{
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    div#corpo3{
+        background-color: rgba(230, 231, 231, 0.300);
+        padding-bottom: 50px;
+    }
+    
+    h1#corpo3{
+        margin-top: 100px;
+    }
+    
+    img#site1{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    div#cases{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    #ferramentas{
+        background-color: #fe6500;
+    }
+    
+    h1#ferr{
+        color: white;
+        margin-top: 200px;
+    }
+    
+    a#conhecer{
+        color: white;
+        padding-top: 5px;
+    }
+    
+    img#word{
+        padding-top: 40px;
+    }
+    
+    div#corpo6{
+        background-image: url(../imagens/usuario.png);
+        width: 100%;
+    }
+    
+    h1#rec{
+        padding-top: 180px;
+        padding-bottom: 180px;
+        color: white;
+    }
+    
+    span#rel{
+        color: #fe6500;
+    }
+    
+    h5#linkesc{
+        padding-top: 40px;
+    }
+    
+    div#corpo7{
+        background-image: url(../imagens/duv.png);
+        width: 100%;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+        /*orçamento*/
+    div#newsletter{
+        text-align: center;
+    }
+
+    div#comp {
+        margin-top: 100px;
+        margin-bottom: -25px;
+    }
+
+    h1#newsletter{
+        margin-top: 30px
+    }
+
+    div#newsletter img{
+        margin-top: 50px;
+    }
+    
+    /*orçamento*/
+
+img#orc{
+    padding-top: 10px;
+}
+
+#corpo8{
+    background-color: rgba(230, 231, 231, 0.300);
+}
+
+div#list1{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+div#list1 p{
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+
+li#atendimento{
+    font-size: 13px;
+}
+
+div#copy{
+    background-color: black;
+    
+}
+
+img#logof{
+    display: none;
+}
+
+div#redes{
+    text-align: right;
+}
+
+div#redes img{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+img#linked{
+    margin-right: 50px;
+}
+
+
+}
+
+@media (max-width: 350px){
+
+    h1{
+        font-size: 20px;
+    }
+
+    body{
+        margin-top: 60px;
+    }
+
+    #divnav{
+        background-color: #000000;
+    }
+    
+    nav{
+        background-color: #000000;
+    }
+    
+    #nav a{
+        color:white;
+        font-size: 17px;
+        font-family: GOTHAM;
+    }
+    
+    a#imglogo{
+        padding-left: 10px;
+    }
+    
+    #corpo1{
+        width: 100%;
+        height: 100%;
+        background-color: #fe6500;
+        background-repeat: no-repeat;
+        
+    }
+    
+    div #seta{
+        text-align: center;
+        padding-top: 200px;
+    }
+    
+    #corpo1 h1 {
+        padding-top: 100px;
+        color:white;
+        font-family: GOTHAM;
+        font-size: 24px;
+    }
+    
+    #corpo1 h5 {
+        color: white;
+        padding-bottom: 100px;
+        font-size: 16px;
+    }  
+
+    a#saiba{
+        text-decoration: none;
+    }
+
+    #corpo2{
+        text-align: center;
+    }
+
+    h1#corpo2{
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    
+    img#cel{
+        padding-top: 50px;
+    }
+    
+    span#multi{
+        color: #fe6500;
+    }
+    
+    a#adquira{
+        text-decoration: none;
+        color: #fe6500;
+    }
+    
+    div#meta{
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    div#corpo3{
+        background-color: rgba(230, 231, 231, 0.300);
+        padding-bottom: 50px;
+    }
+    
+    h1#corpo3{
+        margin-top: 100px;
+    }
+    
+    img#site1{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    div#cases{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    #ferramentas{
+        background-color: #fe6500;
+    }
+    
+    h1#ferr{
+        color: white;
+        margin-top: 200px;
+    }
+    
+    a#conhecer{
+        color: white;
+        padding-top: 5px;
+    }
+    
+    
+    img#word{
+        padding-top: 40px;
+    }
+    
+    div#corpo6{
+        background-image: url(../imagens/usuario.png);
+        width: 100%;
+    }
+    
+    h1#rec{
+        padding-top: 180px;
+        padding-bottom: 180px;
+        color: white;
+    }
+    
+    span#rel{
+        color: #fe6500;
+    }
+    
+    h5#linkesc{
+        padding-top: 40px;
+    }
+    
+    div#corpo7{
+        background-image: url(../imagens/duv.png);
+        width: 100%;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+        /*orçamento*/
+    div#newsletter{
+        text-align: center;
+    }
+
+    div#comp {
+        margin-top: 100px;
+        margin-bottom: -25px;
+    }
+
+    h1#newsletter{
+        margin-top: 30px
+    }
+
+    div#newsletter img{
+        margin-top: 50px;
+    }
+
+    /*orçamento*/
+
+img#orc{
+    padding-top: 10px;
+}
+
+#corpo8{
+    background-color: rgba(230, 231, 231, 0.300);
+}
+
+div#list1{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+div#list1 p{
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+li#atendimento{
+    font-size: 13px;
+}
+
+ul#listfooter li{
+    margin-left: -30px;
+}
+
+div#copy{
+    background-color: black;
+    
+}
+
+img#logof{
+    display: none;
+}
+
+div#redes{
+    text-align: right;
+}
+
+div#redes img{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+img#linked{
+    margin-right: 50px;
+}
+
+
+
+}
+
+
+
+@media (max-width: 280px){
+
+    h1{
+        font-size: 24px;
+    }
+
+    body{
+        margin-top: 60px;
+    }
+
+    #divnav{
+        background-color: #000000;
+    }
+    
+    nav{
+        background-color: #000000;
+    }
+    
+    #nav a{
+        color:white;
+        font-size: 17px;
+        font-family: GOTHAM;
+    }
+    
+    a#imglogo{
+        padding-left: 10px;
+    }
+    
+    #corpo1{
+        width: 100%;
+        height: 100%;
+        background-color: #fe6500;
+        background-repeat: no-repeat;
+        
+    }
+    
+    div #seta{
+        text-align: center;
+        padding-top: 200px;
+    }
+    
+    #corpo1 h1 {
+        padding-top: 100px;
+        color:white;
+        font-family: GOTHAM;
+        font-size: 24px;
+    }
+    
+    #corpo1 h5 {
+        color: white;
+        padding-bottom: 100px;
+        font-size: 16px;
+    }  
+
+    a#saiba{
+        text-decoration: none;
+    }
+
+    #corpo2{
+        text-align: center;
+    }
+
+    h1#corpo2{
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    
+    img#cel{
+        padding-top: 50px;
+    }
+    
+    span#multi{
+        color: #fe6500;
+    }
+    
+    a#adquira{
+        text-decoration: none;
+        color: #fe6500;
+    }
+    
+    div#meta{
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    div#corpo3{
+        background-color: rgba(230, 231, 231, 0.300);
+        padding-bottom: 50px;
+    }
+    
+    h1#corpo3{
+        margin-top: 100px;
+    }
+    
+    img#site1{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    div#cases{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    #ferramentas{
+        background-color: #fe6500;
+    }
+    
+    h1#ferr{
+        color: white;
+        margin-top: 200px;
+    }
+    
+    a#conhecer{
+        color: white;
+        padding-top: 5px;
+    }
+    
+    
+    img#word{
+        padding-top: 40px;
+    }
+    
+    div#corpo6{
+        background-image: url(../imagens/usuario.png);
+        width: 100%;
+    }
+    
+    h1#rec{
+        padding-top: 180px;
+        padding-bottom: 180px;
+        color: white;
+    }
+    
+    span#rel{
+        color: #fe6500;
+    }
+    
+    h5#linkesc{
+        padding-top: 40px;
+    }
+    
+    div#corpo7{
+        background-image: url(../imagens/duv.png);
+        width: 100%;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+        /*orçamento*/
+    div#newsletter{
+        text-align: center;
+    }
+
+    div#comp {
+        margin-top: 100px;
+        margin-bottom: -25px;
+    }
+
+    h1#newsletter{
+        margin-top: 30px
+    }
+
+    div#newsletter img{
+        margin-top: 50px;
+    }
+
+    /*orçamento*/
+
+img#orc{
+    padding-top: 10px;
+}
+
+#corpo8{
+    background-color: rgba(230, 231, 231, 0.300);
+}
+
+div#list1{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+div#list1 p{
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+li#atendimento{
+    font-size: 13px;
+}
+
+ul#listfooter li{
+    margin-left: -30px;
+}
+
+div#copy{
+    background-color: black;
+    
+}
+
+img#logof{
+    display: none;
+}
+
+div#redes{
+    text-align: right;
+}
+
+div#redes img{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+img#linked{
+    margin-right: 50px;
+}
+
+
+
+}
+
