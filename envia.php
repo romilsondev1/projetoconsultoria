@@ -1,30 +1,32 @@
-// Destinatário
-$para = "emaildestinatario@teste.com";
-
-// Assunto do e-mail
-$assunto = "Contato do através do site ...";
-
-// Campos do formulário de contato
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$telefone = $_POST['tel'];
-$mensagem = $_POST['conteudo'];
-
-// Monta o corpo da mensagem com os campos
-$corpo = "<html><body>";
-$corpo .= "Nome: $nome ";
-$corpo .= "Email: $email Telefone: $telefone Mensagem: $mensagem";
-$corpo .= "</body></html>";
-
-// Cabeçalho do e-mail
-$email_headers = implode("\n", array("From: $nome", "Reply-To: $email", "Subject: $assunto", "Return-Path: $email", "MIME-Version: 1.0", "X-Priority: 3", "Content-Type: text/html; charset=UTF-8"));
-
-//Verifica se os campos estão preenchidos para enviar então o email
-if (!empty($nome) && !empty($email) && !empty($mensagem)) {
-    mail($para, $assunto, $corpo, $email_headers);
-    $msg = "Sua mensagem foi enviada com sucesso.";
-    echo "<script>alert('$msg');window.location.assign('http://www.seusite.com.br/contato');</script>";
-} else {
-    $msg = "Erro ao enviar a mensagem.";
-    echo "<script>alert('$msg');window.location.assign('http://www.seusite.com.br/contato');</script>";
-}
+<?php
+// Passando os dados obtidos pelo formulário para as variáveis abaixo
+$nomeremetente = $_POST['nome'];
+$emailremetente = trim($_POST['email']);
+$emaildestinatario = 'rc.eng.prod@outlook.com.br';// Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
+$telefone = $_POST['telefone'];
+$assunto = $_POST['assunto'];
+$mensagem = $_POST['mensagem'];
+ 
+/* Montando a mensagem a ser enviada no corpo do e-mail. */
+$mensagemHTML = '
+<strong>Formulário de Contato</strong> 
+<p><b>Nome:</b> '.$nomeremetente.' <p>
+<b>E-Mail:</b> '.$emailremetente.' <p>
+<b>DDD:</b> '.$ddd.' <p>
+<b>Telefone:</b> '.$telefone.' <p>
+<b>Assunto:</b> '.$assunto.' <p>
+<b>Mensagem:</b> '.$mensagem.'</p>
+<hr>';
+ 
+// O remetente deve ser um e-mail do seu domínio conforme determina a RFC 822.
+// O return-path deve ser ser o mesmo e-mail do remetente.
+$headers = "MIME-Version: 1.1\r\n";
+$headers .= "Content-type: text/html; charset=utf-8\r\n";
+$headers .= "From: $emailremetente\r\n";
+// remetente
+$headers .= "Return-Path: $emaildestinatario \r\n";
+// return-path
+$envio = mail($emaildestinatario, $assunto, $mensagemHTML, $headers);
+if($envio)
+echo "<script>location.href='sucesso.html'</script>";// Página que será redirecionada
+?>
